@@ -12,6 +12,10 @@ var currColumns = []; //keeps track of which row each column is at.
 window.onload = function() {
     setGame();
 }
+function refreshPage(){
+    window.location.reload();
+} 
+
 
 function setGame() {
     board = [];
